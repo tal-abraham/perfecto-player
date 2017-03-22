@@ -88,7 +88,7 @@ public class PerfectoMobileBrowser {
 		String perfectoUrl = null;
 		
 		if (labOrDashboard.equalsIgnoreCase("lab")) {
-			shell.setText("Perfecto Lab");
+			shell.setText("Perfecto Player");
 			initPerfectoLabBrowserFunctions();
 			perfectoUrl = "https://" + PerfectoProperties.getHost() + "/nexperience/selenium.jsp?container=eclipse";
 		}
