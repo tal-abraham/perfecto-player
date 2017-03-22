@@ -128,7 +128,7 @@ public class PerfectoMobileBrowser {
 			}
 		});
 		
-		shell.setSize(800, 600);
+		shell.setSize(400, 600);
 		shell.open();
 		
 		startConnectorServer(labOrDashboard);
